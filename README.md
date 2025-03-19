@@ -2,7 +2,36 @@
 
 ### Configuración del Entorno de Desarrollo y Creación del Proyecto
 
-Este documento detalla los pasos para configurar el entorno de desarrollo Flutter y crear el proyecto `hexagonal_microservices_app` siguiendo una arquitectura hexagonal (arquetipo móvil).
+Este documento detalla los pasos para configurar el entorno de desarrollo Flutter y crear el proyecto `hexagonal_microservices_app` siguiendo una arquitectura hexagonal (arquetipo móvil). Se resuelve el siguiente ejercicio:
+
+**Ejercicio:**
+
+**Descripción:**
+
+El desarrollador debe configurar un entorno de desarrollo para Flutter siguiendo
+las pautas del documento y crear un proyecto con una estructura de carpetas
+basada en el arquetipo móvil.
+
+**Requisitos:**
+
+- Configurar el entorno de desarrollo con Flutter SDK, Android Studio, y
+  Xcode (si es necesario).
+- Crear un nuevo proyecto Flutter llamado `hexagonal_microservices_app`.
+- Implementar la estructura de carpetas recomendada en el documento:
+  - `lib/core/`
+  - `lib/data/`
+  - `lib/domain/`
+  - `lib/presentation/`
+  - `lib/utils/`
+- Configurar el archivo `pubspec.yaml` con dependencias básicas como `http`,
+  `provider`, y `flutter_bloc`.
+
+**Reto:**
+
+- Asegúrate de que el proyecto esté correctamente configurado y que todas
+  las dependencias se instalen sin errores.
+- Verifica que la estructura de carpetas esté organizada según el arquetipo
+  móvil.
 
 #### 1. Configuración del Entorno de Desarrollo
 
@@ -14,7 +43,7 @@ Este documento detalla los pasos para configurar el entorno de desarrollo Flutte
 
 - **Xcode (solo para desarrollo en iOS):** Si planeas desarrollar para iOS, necesitarás una Mac con Xcode instalado. Descarga Xcode desde la Mac App Store. Después de la instalación, abre Xcode y acepta los términos y condiciones. También es recomendable instalar las herramientas de línea de comandos de Xcode ejecutando `xcode-select --install` en tu terminal. Configura el simulador de iOS dentro de Xcode.
 
-- **Editores / IDEs:** Si bien Android Studio y XCode son fundamentales, para la edicion de codigo se puede utilizar VS Code, Android Studio o algun otro editor de codigo con soporte para Dart y Flutter. Se recomienda instalar las extensiones de Dart y Flutter.
+- **Editores / IDEs:** Si bien Android Studio y XCode son fundamentales, para la edición de código se puede utilizar VS Code, Android Studio o algún otro editor de código con soporte para Dart y Flutter. Se recomienda instalar las extensiones de Dart y Flutter.
 
 #### 2. Creación del Proyecto Flutter
 
@@ -84,3 +113,7 @@ flutter pub get
   ```bash
    flutter run
   ```
+
+```
+
+```
